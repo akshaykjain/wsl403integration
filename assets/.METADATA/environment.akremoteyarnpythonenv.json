@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "name": "ak_remote_yarn_python_env",
+    "description": "",
+    "origin_country": "US",
+    "tags": [
+      "dsx"
+    ],
+    "asset_type": "environment",
+    "rov": {
+      "mode": 0
+    },
+    "created_at": "2021-10-05T13:35:19Z",
+    "created": 1633440919478,
+    "asset_id": "environment.akremoteyarnpythonenv",
+    "asset_attributes": [
+      "environment"
+    ]
+  },
+  "entity": {
+    "environment": {
+      "sub_type": "remote_yarn",
+      "display_name": "ak_remote_yarn_python_env",
+      "hardware_specification": {
+        "yarn": {
+          "container": {
+            "cores": 1,
+            "memory": "1024m"
+          }
+        }
+      },
+      "software_specification": {
+        "yarn_queue": "default",
+        "language": "python",
+        "sys_version": "system",
+        "image_name": ""
+      },
+      "compute_specification": {
+        "service_id": "645439e0f5f08bf0",
+        "display_name": "ak-cdh715-edge-1"
+      },
+      "runtime_definition": "dsx-hi"
+    }
+  },
+  "attachments": []
+}
